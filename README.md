@@ -6,7 +6,7 @@ python3 install_requirements.py
 
 **Run**
 Change the following constants according to your template:
-```python
+```
 TEMPLATE_FILENAME -> filename of your template. PNG recommended otherwise color problems may occur.
 FONT_NAME -> font name
 FONT_SIZE -> font size
