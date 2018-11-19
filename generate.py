@@ -25,12 +25,12 @@ template = pygame.image.load(TEMPLATE_FILENAME)
 
 f = pygame.font.SysFont(FONT_NAME, FONT_SIZE)
 
-inp = input()
+inp = input("Name")
 inp = ar.reshape(inp)
 inp = inp[::-1]
 
 name = f.render(inp, True, FOREGROUND_COLOR)
-c = input()
+c = input("Code")
 code = f.render(c, True, FOREGROUND_COLOR)
 qr = qrcode.QRCode()
 qr.add_data(c)
