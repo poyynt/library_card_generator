@@ -5,6 +5,7 @@ python3 install_requirements.py
 ```
 
 **Run**
+
 Change the following constants according to your template:
 ```
 TEMPLATE_FILENAME -> filename of your template. PNG recommended otherwise color problems may occur.
